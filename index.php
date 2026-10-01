@@ -1486,7 +1486,7 @@ ini_set('display_errors', 0);
           <!-- Payconiq QR (extern) -->
           <div style="text-align:center;margin-bottom:16px;">
             <h4 style="font-size:16px;margin:0 0 12px;color:#fff;">📱 Scan & Doneer</h4>
-            <img src="https://fikfak.news/wp-content/uploads/2024/12/IMG-20241210-WA0001.jpg" class="payconiq" alt="Payconiq QR-code om FikFak News te ondersteunen met donatie - Scan met je smartphone" loading="lazy" width="400" height="400">
+            <img src="assets/Donatie_payconiq.jpg" class="payconiq" alt="Payconiq QR-code om FikFak News te ondersteunen met donatie - Scan met je smartphone" loading="lazy" width="400" height="400">
           </div>
           <a class="btn" href="#" style="width: 100%;max-width:280px;font-size:16px;padding:14px 20px;font-weight:800;text-transform:uppercase;letter-spacing:0.5px;background:linear-gradient(135deg,var(--accent),#1e7eeb);box-shadow:0 8px 24px rgba(28,99,207,0.4);" id="support-subscribe" role="button" aria-label="Klik om donatie via bankoverschrijving te doen">🏦 Bankoverschrijving</a>
         </div>
