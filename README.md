@@ -16,7 +16,7 @@ Public website and member platform for FikFak News. This repository now covers b
 
 ```text
 fikfak-news/
-├── index.php                  # Public homepage and social sharing entry point
+├── index.html                 # Static public homepage and social sharing entry point
 ├── update-latest-video.php    # Updates latest-video.json from YouTube
 ├── latest-video.json          # Cached latest and recent YouTube videos
 ├── privacy-policy.html        # Privacy policy
@@ -43,7 +43,8 @@ fikfak-news/
 
 ## Stack
 
-- PHP 8.x
+- HTML, CSS, and JavaScript for the public homepage
+- PHP 8.x for account and form endpoints
 - MySQL / MariaDB
 - Apache or LiteSpeed with `.htaccess`
 - YouTube RSS feed for latest video discovery

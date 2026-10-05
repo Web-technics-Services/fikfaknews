@@ -42,8 +42,10 @@ jobs:
 
             git pull --ff-only origin main
 
-            if command -v php >/dev/null 2>&1; then
-              php -l index.php
+            test -s index.html
+            if grep -q '<?php' index.html; then
+              echo "index.html still contains PHP code"
+              exit 1
             fi
 
             echo "Deploy complete at commit $(git rev-parse HEAD)"

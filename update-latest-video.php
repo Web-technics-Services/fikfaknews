@@ -3,7 +3,7 @@
  * Automatic Video Update Script for FikFak News
  * This script checks YouTube Data API (instant) and RSS feed,
  * then updates latest-video.json only.
- * Social metadata is rendered dynamically in index.php.
+ * The static homepage reads this data from latest-video.json in the browser.
  * Run via cron every 10-20 seconds on Sunday mornings around 8am.
  */
 
