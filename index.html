@@ -86,7 +86,7 @@
   <meta name="telegram:channel" content="@fikfakmaster" />
   
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://go.fikfak.news/?v=_zmNgTiLmWo" />
+  <link rel="canonical" href="https://go.fikfak.news/" />
   
   <!-- Favicon & App Icons -->
   <link rel="icon" type="image/png" href="assets/favicons/favicon.png" />
@@ -1951,9 +1951,6 @@
 
         let metaDescription = document.querySelector('meta[name="description"]');
         if (metaDescription) metaDescription.setAttribute('content', shareDescription);
-
-        let canonical = document.querySelector('link[rel="canonical"]');
-        if (canonical) canonical.setAttribute('href', pageUrl);
 
         let ogUrl = document.querySelector('meta[property="og:url"]');
         if (ogUrl) ogUrl.setAttribute('content', pageUrl);
