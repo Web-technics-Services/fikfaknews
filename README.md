@@ -92,7 +92,7 @@ cd fikfak-news
 
 ### Video Update Cron
 
-To keep social metadata aligned with the latest broadcast, run `update-latest-video.php` on a schedule that fits your publishing cadence.
+To keep social metadata aligned with the latest broadcast, run `update-latest-video.php` on a schedule that fits your publishing cadence. The homepage treats cache data older than six hours as stale and falls back to the live YouTube RSS feed.
 
 Example:
 
